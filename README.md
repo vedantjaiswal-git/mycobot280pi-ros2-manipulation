@@ -147,6 +147,12 @@ Current demo artifacts:
 - Gazebo/MoveIt demo: [media/demo/gazebo_moveit_demo.mp4](media/demo/gazebo_moveit_demo.mp4)
 - Public report PDF: [docs/report/MyCobot_280Pi_Report.pdf](docs/report/MyCobot_280Pi_Report.pdf)
 
+## Demo Video
+
+The full-resolution final pick-and-place demonstration video is available in the project release:
+
+[Download full pick-and-place demo video]()
+
 ## Limitations And Future Work
 
 - YOLO model weights are excluded from Git. 
