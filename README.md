@@ -151,7 +151,7 @@ Current demo artifacts:
 
 The full-resolution final pick-and-place demonstration video is available in the project release:
 
-[Download full pick-and-place demo video]()
+[Download full pick-and-place demo video](https://github.com/vedantjaiswal-git/mycobot280pi-ros2-manipulation/releases/download/v1.0-demo/pick.place.mp4)
 
 ## Limitations And Future Work
 
