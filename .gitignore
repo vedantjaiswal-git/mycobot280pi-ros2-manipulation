@@ -1,0 +1,74 @@
+# ROS 2 / colcon build products
+build/
+install/
+log/
+.colcon/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter generated files and solution notebooks
+.ipynb_checkpoints/
+*Solution*.ipynb
+*solution*.ipynb
+*Loesung*.ipynb
+*Musterloesung*.ipynb
+
+# Large or private ML/vision artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+datasets/
+data/
+runs/
+wandb/
+calibration*.json
+z_scale_calibration.json
+
+# Large media and presentation/archive material from the raw project dump
+*.zip
+*.mp4
+*.MOV
+*.avi
+*.mkv
+*.pptx
+*.ppsx
+*.potx
+!media/demo/*.mp4
+!docs/report/*.pptx
+!docs/report/*.pdf
+
+# Academic-integrity sensitive course solution folders
+**/solution/
+**/Solution/
+**/solutions/
+**/Solutions/
+**/Loesung/
+**/Musterloesung/
+
+# Local IDE/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary or generated local artifacts found in the project dump
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.save
+src/mycobot_vel_control/*.html
+src/mycobot_280_gazebo/urdf/mycobot_280_gazebo(0)
+src/**/ik_traj_debug.npy
