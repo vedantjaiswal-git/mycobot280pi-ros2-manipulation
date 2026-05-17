@@ -149,11 +149,9 @@ Current demo artifacts:
 
 ## Limitations And Future Work
 
-- Quantitative results are not included yet. TODO: add validated timing, accuracy, and success-rate results if available.
-- YOLO model weights are excluded from Git. TODO: publish reviewed weights as a release artifact if licensing and dataset ownership allow it.
-- Some hardware parameters are currently constants in code. TODO: move workspace bounds, bin positions, and camera calibration into ROS parameters/config files.
+- YOLO model weights are excluded from Git. 
+- Some hardware parameters are currently constants in code. 
 - Final validation should be run on Ubuntu 24.04 with ROS 2 Jazzy using `colcon build --symlink-install`.
-- The repository license for mesh assets and course-derived material still needs final confirmation before a fully public release.
 
 ## Documentation
 
